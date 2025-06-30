@@ -1,0 +1,23 @@
+# Reconhecimento de voz com Whisper (offline e eficiente)
+openai-whisper==20231117
+torch>=2.0.0
+
+# Captura e gravação de áudio com microfone
+sounddevice==0.4.6
+scipy==1.13.1
+
+# Reprodução de áudio (respostas faladas)
+pygame==2.6.1
+
+# Voz por texto (opcional, online via Google)
+gTTS==2.5.4
+
+# Variáveis de ambiente e configuração
+python-dotenv==1.1.1
+
+# Estética (opcional)
+colorama==0.4.6
+tqdm==4.67.1
+
+# Para chamadas HTTP futuras (clima, APIs externas)
+requests==2.32.4
