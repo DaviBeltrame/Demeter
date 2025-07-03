@@ -1,0 +1,27 @@
+# Ignorar pastas do ambiente virtual
+Lib/
+Scripts/
+Demeter/Lib/
+Demeter/Scripts/
+
+# Arquivos de cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Arquivos temporários de áudio
+*.wav
+*.mp3
+*.ogg
+
+# Variáveis de ambiente (credenciais, configurações privadas)
+.env
+
+# Banco de dados local (se você usar SQLite)
+*.db
+
+# Pastas de modelo (ex: whisper, vosk)
+models/
+
+# Dados temporários
+temp/

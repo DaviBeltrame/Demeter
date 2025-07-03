@@ -1,0 +1,8 @@
+openai-whisper
+torch --index-url https://download.pytorch.org/whl/cpu
+sounddevice
+scipy
+pygame
+python-dotenv
+gtts
+piper
